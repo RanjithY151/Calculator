@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="calculator">
+            <input id="display" readonly>
+            <div id="keys">
+                <button onclick="displayIn('+')" class="operator">+</button>
+                <button onclick="displayIn('7')">7</button>
+                <button onclick="displayIn('8')">8</button>
+                <button onclick="displayIn('9')">9</button>
+                <button onclick="displayIn('-')"class="operator">-</button>
+                <button onclick="displayIn('4')">4</button>
+                <button onclick="displayIn('5')">5</button>
+                <button onclick="displayIn('6')">6</button>
+                <button onclick="displayIn('*')" class="operator">*</button>
+                <button onclick="displayIn('1')">1</button>
+                <button onclick="displayIn('2')">2</button>
+                <button onclick="displayIn('3')">3</button>
+                <button onclick="displayIn('/')" class="operator">/</button>
+                <button onclick="displayIn('0')">0</button>
+                <button onclick="displayIn('.')">.</button>
+                <button onclick="calculate('=')" class="calculate">=</button>
+                <button onclick="clearIn('AC')" class="clear">AC</button>
+                <button onclick="backspaceIn('BKSP')" class="backspace">BKSP</button>
+            </div>
+        
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
